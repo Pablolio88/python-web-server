@@ -1,0 +1,14 @@
+---
+
+define: &region 'us-east-1'
+region: *region
+tags:
+  ManagedBy: 'Terragrunt-Terraform'
+  ExpirationDate: 'Never'
+  Customer: 'MyCustomer'
+  Project: 'PKuprin-test'
+
+remote_state_config:
+  encrypt: true
+  bucket: 'pkuprin-terraform-remote-states'
+  region: *region

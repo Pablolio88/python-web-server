@@ -1,0 +1,5 @@
+# Ignore Terragrunt cache
+.terragrunt-cache/
+.terraform.lock.hcl
+.terragrunt-module-manifest
+terragrunt-debug.tfvars.json
